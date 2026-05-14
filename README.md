@@ -1,4 +1,4 @@
-# Process Engineering × Software Engineering
+# Process Engineering - Software Engineering
 
 A collection of educational C projects exploring how programming can be used to model, simulate, and understand real engineering and industrial processes.
 
