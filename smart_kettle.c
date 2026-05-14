@@ -19,6 +19,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int	is_number(char *str)
+{
+	int	i;
+
+	i = 0;
+
+	if (str[0] == '\0')
+		return (0);
+
+	while (str[i])
+	{
+		if (str[i] < '0' || str[i] > '9')
+			return (0);
+		i++;
+	}
+
+	return (1);
+}
+
 int	main(int argc, char **argv)
 {
 	int	current_temp;
@@ -26,7 +45,14 @@ int	main(int argc, char **argv)
 
 	if (argc != 3)
 	{
-		printf("Usage: ./kettle_control <current_temp> <target_temp>\n");
+		printf("Usage: ./smart_kettle <current_temp> <target_temp>\n");
+		return (1);
+	}
+
+	if (!is_number(argv[1]) || !is_number(argv[2]))
+	{
+		printf("Error: Temperatures must contain only numbers.\n");
+		printf("Valid range: 0°C to 100°C.\n");
 		return (1);
 	}
 
