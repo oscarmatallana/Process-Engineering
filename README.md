@@ -31,7 +31,7 @@ Most projects are implemented using beginner-friendly C syntax and simple logic 
 
 ---
 
-# Smart Kettle — Temperature Control Loop in C
+# 1. Smart Kettle — Temperature Control Loop in C
 
 A simple educational simulation of a temperature control loop for a household electric kettle.
 
