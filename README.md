@@ -1,6 +1,6 @@
-# Process Engineering - Software Engineering
+# Engineering-Systems
 
-A collection of educational C projects exploring how programming can be used to model, simulate, and understand real engineering and industrial processes.
+A collection of C projects exploring how programming can be used to model, simulate and understand real engineering and industrial processes.
 
 This repository combines:
 - process-oriented thinking
@@ -9,7 +9,7 @@ This repository combines:
 - low-level programming in C
 - beginner-friendly software engineering practices
 
-The projects are intentionally designed to remain simple, readable, and pedagogical while gradually introducing concepts commonly found in:
+The projects are intentionally designed to remain simple, readable and pedagogical while gradually introducing concepts commonly found in:
 - process engineering
 - embedded systems
 - automation
